@@ -42,7 +42,7 @@ UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 UPDATE_PACKAGE "luci-app-wolplus" "VIKINGYFY/packages" "main" "pkg"
 UPDATE_PACKAGE "luci-app-netspeedtest" "sirpdboy/NetSpeedTest" "master"
 UPDATE_PACKAGE "luci-app-autotimeset" "sirpdboy/luci-app-autotimeset" "master"
-UPDATE_PACKAGE "luci-theme-parentcontrol" "sirpdboy/luci-theme-parentcontrol" "master"
+# UPDATE_PACKAGE "luci-theme-parentcontrol" "sirpdboy/luci-theme-parentcontrol" "master"
 
 if [[ $WRT_REPO != *"immortalwrt"* ]]; then
 	UPDATE_PACKAGE "qmi-wwan" "immortalwrt/wwan-packages" "master" "pkg"
