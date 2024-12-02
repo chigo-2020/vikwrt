@@ -178,6 +178,10 @@ jobs:
 
           make download -j$(nproc)
 
+          find dl -size -1024c -exec rm -f {} \;
+
+          make download -j$(nproc)
+
       - name: Compile Firmware
         if: env.WRT_TEST != 'true'
         run: |
